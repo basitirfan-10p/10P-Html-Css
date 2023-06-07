@@ -75,8 +75,8 @@ body {
     justify-content: center;
     height: 160px;
     text-align: center;
-    font-style: 'DMSans'; 
-    font-size: 20px; 
+    font-style: 'DMSans';
+    font-size: 20px;
     color: white;
 }
 
@@ -90,9 +90,9 @@ body {
 
 
 .bg-img {
-    background-image: 
-    linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%),
-    url("./asset/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg");
+    background-image:
+        linear-gradient(198.73deg, rgba(0, 0, 0, 0.0001) 15.31%, rgba(0, 0, 0, 0.837986) 67.37%),
+        url("./asset/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg");
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -157,12 +157,12 @@ body {
 }
 
 .gradient-rectangle {
-    background-image: 
-    linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    background-image:
+        linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
     width: 169px;
     height: 4px;
     margin-top: 110px;
-    
+
 }
 
 #content-image {
@@ -194,7 +194,7 @@ body {
     margin-left: 25px;
     line-height: 56.5px;
     display: flex;
-  }
+}
 
 .column:first-child {
     border-left: none;
@@ -223,8 +223,8 @@ body {
 }
 
 .bg-house {
-    background-color: lightgray; 
-    border-radius: 25px 25px 0px 0px; 
+    background-color: lightgray;
+    border-radius: 25px 25px 0px 0px;
     box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
     width: 336px;
     margin-left: 25px;
@@ -284,7 +284,7 @@ body {
 .black-content {
     height: 647px;
     background-image:
-    linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+        linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
 }
 
 .white-content {
@@ -292,8 +292,8 @@ body {
 }
 
 .golden-rectangle {
-    background-image: 
-    linear-gradient(90deg, #FFAC12 0%, rgba(0, 0, 0, 0.0001) 94.96%);
+    background-image:
+        linear-gradient(90deg, #FFAC12 0%, rgba(0, 0, 0, 0.0001) 94.96%);
     width: 169px;
     height: 4px;
 }
@@ -320,8 +320,8 @@ body {
 }
 
 .long-gradient-rectangle {
-    background-image: 
-    linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    background-image:
+        linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
     width: 336px;
     height: 4px;
     margin-bottom: 35px;
@@ -361,7 +361,75 @@ body {
 }
 
 .heading-content {
-    font-family: 'DMSans'; 
+    font-family: 'DMSans';
     font-size: 20px;
     display: flex;
+}
+
+.footer {
+    height: 551px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    height: 325px;
+    display: flex;
+    width: 900px;
+    background-color: black;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.reality-div {
+    font-size: 40px;
+    background: -webkit-linear-gradient(139.15deg, #FFAC12 5.46%, #C87224 96.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 50px;
+}
+
+.footer-learn-more-btn {
+    border-width: 0;
+    color: black;
+    font-weight: bold;
+    height: 70px;
+    width: 211px;
+    font-family: 'DMSans';
+    font-size: 17px;
+    margin-top: 100px;
+    background: #FFAC12;
+    border-radius: 0px 18px 0px 0px;
+    margin-top: 15px;
+    margin-left: 210px;
+}
+
+.seperator {
+    width: 900px;
+    height: 1px;
+    background: white;
+    opacity: 0.1;
+    margin-top: -15px;
+}
+
+.bottom-container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 900px;
+    height: 100px;
+}
+
+.bottom-container-column {
+    width: 336px;
+    border: 2px solid;
+    text-align: right;
+}
+
+.footer-logos {
+    display: flex;
+    gap: 28px;
+    margin-top: 12px;
 }
