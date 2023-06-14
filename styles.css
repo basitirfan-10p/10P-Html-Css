@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 body {
     margin: 0px;
 }
@@ -12,9 +14,11 @@ body {
 }
 
 .container {
+    max-width: 1069px;
+    margin: 0 auto;
     height: auto;
-    margin-left: 140px;
-    margin-right: 105px;
+    /* margin-left: 140px;
+    margin-right: 105px; */
 }
 
 #path-arrow {
@@ -30,7 +34,7 @@ body {
 .listing p {
     color: black;
     font-size: 20px;
-    font-family: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-weight: bolder;
     height: 26px;
     line-height: 85px;
@@ -38,7 +42,7 @@ body {
 }
 
 .text-1 {
-    font-style: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 80px;
     color: white;
     margin-top: 135px;
@@ -47,17 +51,17 @@ body {
 }
 
 .content-text {
-    font-style: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 70px;
     font-weight: bold;
     margin-bottom: 30px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .black-content-text {
     display: flex;
     justify-content: center;
-    font-style: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 70px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -75,7 +79,7 @@ body {
     justify-content: center;
     height: 160px;
     text-align: center;
-    font-style: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     color: white;
 }
@@ -116,14 +120,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
-    gap: 20px;
+    font-size: 15px;
+    font-family: 'DM Sans', sans-serif;
+    gap: 48px;
     margin-left: 50px;
 }
 
 .navigation-bar a {
     font-size: 18px;
     color: white;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 
 
@@ -132,7 +138,7 @@ body {
     height: 50px;
     width: 211px;
     font-weight: bold;
-    font-family: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     background: #FFAC12;
     border-radius: 0px 18px 0px 0px;
@@ -143,9 +149,9 @@ body {
     color: white;
     height: 70px;
     width: 211px;
-    font-family: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
-    margin-top: 100px;
+    margin-top: 125px;
     background: black;
     border-radius: 0px 18px 0px 0px;
 }
@@ -190,6 +196,7 @@ body {
     float: left;
     width: 25%;
     padding: 10px;
+    font-family: 'DM Sans', sans-serif;
     border-right: 1px solid #E4E4E4;
     margin-left: 25px;
     line-height: 56.5px;
@@ -311,7 +318,7 @@ body {
     font-weight: bold;
     height: 70px;
     width: 211px;
-    font-family: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     margin-top: 100px;
     background: #FFAC12;
@@ -330,7 +337,7 @@ body {
 .white-content-para {
     margin: 0 auto;
     color: black;
-    font-family: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 24px;
     height: 186px;
     width: 336px;
@@ -361,7 +368,7 @@ body {
 }
 
 .heading-content {
-    font-family: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 20px;
     display: flex;
 }
@@ -397,13 +404,13 @@ body {
     font-weight: bold;
     height: 70px;
     width: 211px;
-    font-family: 'DMSans';
+    font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     margin-top: 100px;
     background: #FFAC12;
     border-radius: 0px 18px 0px 0px;
     margin-top: 15px;
-    margin-left: 210px;
+    margin-left: 190px;
 }
 
 .seperator {
